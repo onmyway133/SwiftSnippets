@@ -151,6 +151,12 @@ Drag `codesnippet` files from `Snippets` into `/Library/Developer/Xcode/UserData
 
 ### Automatic
 
+Run this in your terminal
+
+```
+curl -fsSL https://raw.githubusercontent.com/hyperoslo/SwiftSnippets/master/install.sh | sh
+```
+
 ## Author
 
 Hyper Interaktiv AS, ios@hyper.no
