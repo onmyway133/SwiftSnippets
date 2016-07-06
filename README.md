@@ -157,4 +157,4 @@ Hyper Interaktiv AS, ios@hyper.no
 
 ## License
 
-**Imaginary** is available under the MIT license. See the LICENSE file for more info.
+**SwiftSnippets** is available under the MIT license. See the LICENSE file for more info.
