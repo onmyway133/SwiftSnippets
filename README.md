@@ -77,6 +77,72 @@ if #available(iOS 9, *) {
 #endif
 ```
 
+- swiftdispatchafter
+
+```swift
+let time = dispatch_time(DISPATCH_TIME_NOW, Int64(1 * Double(NSEC_PER_SEC)))
+dispatch_after(time, dispatch_get_main_queue()) {
+    <#code#>
+}
+```
+
+- swiftdispatchasync
+
+```swift
+dispatch_async(dispatch_get_global_queue(QOS_CLASS_BACKGROUND, 0)) {
+    <#code#>
+}
+```
+
+- swiftdispatchonce
+
+```swift
+struct Static {
+  static var token: dispatch_once_t = 0
+}
+
+dispatch_once(&Static.token) {
+    <#code#>
+}
+```
+
+- swiftinitcoder
+
+```swift
+public required init?(coder aDecoder: NSCoder) {
+  fatalError("init(coder:) has not been implemented")
+}
+```
+
+- swiftmark
+
+```swift
+// MARK: - <#section#>
+```
+
+- swiftsubscript
+
+```swift
+subscript(<#name#>: <#type#>) -> <#type#> {
+  get {
+    return <#value#>
+  }
+  set(newValue) {
+      <#code#>
+  }
+}
+```
+
+- swifttypealias
+
+```swift
+typealias <#alias#> = <#existingtype#>
+```
+
+- swiftuitableviewdatasource
+- swiftuicollectionviewdatasource
+- swiftuipickerviewdatasource
+
 ## Installation
 
 ### Manual
