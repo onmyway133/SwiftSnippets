@@ -3,22 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swiftmark</string>
+	<string>swiftcheckavailability</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#section#&gt;</string>
+	<string>if #available(iOS 9, *) {
+    &lt;#code#&gt;
+    } else {
+    &lt;#code&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A54D18ED-62B6-4468-9F9F-880DEF598DAF</string>
+	<string>286EE23E-804C-448C-84C2-437F71E31054</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swiftmark</string>
+	<string>swiftcheckavailability</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

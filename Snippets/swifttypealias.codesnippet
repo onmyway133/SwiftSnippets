@@ -3,32 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swiftuicollectionviewdatasource</string>
+	<string>swifttypealias</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>func numberOfSectionsInCollectionView(collectionView: UICollectionView) -&gt; Int {
-    &lt;#count#&gt;
-  }
-
-  func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
-    &lt;#count#&gt;
-  }
-
-  func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -&gt; UICollectionViewCell {
-    &lt;#code#&gt;
-  }</string>
+	<string>typealias &lt;#alias#&gt; = &lt;#existingtype#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F932ECD9-8F67-4C60-98CF-071204B1FF17</string>
+	<string>5A840BC7-D419-4A82-A069-E9DDC4F8BA20</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swiftuicollectionviewdatasource</string>
+	<string>swifttypealias</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

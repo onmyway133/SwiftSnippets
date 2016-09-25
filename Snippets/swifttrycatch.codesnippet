@@ -3,29 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swiftsubscript</string>
+	<string>swifttrycatch</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>subscript(&lt;#name#&gt;: &lt;#type#&gt;) -&gt; &lt;#type#&gt; {
-    get {
-      return &lt;#value#&gt;
-    }
-    set(newValue) {
-        &lt;#code#&gt;
-    }
-  }</string>
+	<string>do {
+      try &lt;#code#&gt;
+    } catch &lt;#errortype#&gt; {
+    &lt;#code#&gt;
+    } catch &lt;#errortype#&gt; {
+    &lt;#code#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F50B2DAE-E6B0-464E-9369-EFDAF86F8A82</string>
+	<string>346D0D22-46F9-4BB1-AACB-82574540A27E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swiftsubscript</string>
+	<string>swifttrycatch</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

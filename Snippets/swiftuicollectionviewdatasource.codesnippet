@@ -3,38 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swiftassociatedobject</string>
+	<string>swiftuicollectionviewdatasource</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private struct AssociatedKeys {
-    static var &lt;#name#&gt; = "&lt;#name#&gt;"
+	<string>func numberOfSectionsInCollectionView(collectionView: UICollectionView) -&gt; Int {
+    &lt;#count#&gt;
   }
 
-  var &lt;#name#&gt;: String? {
-    get {
-      return objc_getAssociatedObject(self, &amp;AssociatedKeys.&lt;#name#&gt;) as? String
-    }
+  func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
+    &lt;#count#&gt;
+  }
 
-    set {
-      if let newValue = newValue {
-        objc_setAssociatedObject(self, &amp;AssociatedKeys.&lt;#name#&gt;, newValue as String?,
-          .OBJC_ASSOCIATION_RETAIN_NONATOMIC
-        )
-      }
-    }
+  func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -&gt; UICollectionViewCell {
+    &lt;#code#&gt;
   }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8F683F39-CAF9-4C8F-A82C-E990F83ABECF</string>
+	<string>F932ECD9-8F67-4C60-98CF-071204B1FF17</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swiftassociatedobject</string>
+	<string>swiftuicollectionviewdatasource</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

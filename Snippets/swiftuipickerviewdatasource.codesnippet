@@ -3,22 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swiftavailable</string>
+	<string>swiftuipickerviewdatasource</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@available(iOS 7, *)</string>
+	<string>func numberOfComponentsInPickerView(pickerView: UIPickerView) -&gt; Int {
+    &lt;#count#&gt;
+  }
+
+  func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -&gt; Int {
+    &lt;#count#&gt;
+  }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4F4AC178-5A4C-4AB2-B08D-6549243282F7</string>
+	<string>221CE04F-5B1F-4A86-8EB3-52FAEF45CF0A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swiftavailable</string>
+	<string>swiftuipickerviewdatasource</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

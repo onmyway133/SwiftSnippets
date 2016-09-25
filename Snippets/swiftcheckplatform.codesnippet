@@ -3,22 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swifttypealias</string>
+	<string>swiftcheckplatform</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typealias &lt;#alias#&gt; = &lt;#existingtype#&gt;</string>
+	<string>#if os(iOS) || os(tvOS)
+    &lt;#code#&gt;
+#elseif os(watchOS)
+    &lt;#code#&gt;
+#elseif os(OSX)
+    &lt;#code#&gt;
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5A840BC7-D419-4A82-A069-E9DDC4F8BA20</string>
+	<string>89D8ABD7-A0CB-45D6-B354-6BC718E2955A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swifttypealias</string>
+	<string>swiftcheckplatform</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

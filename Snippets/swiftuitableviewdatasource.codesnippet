@@ -3,28 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swiftcheckplatform</string>
+	<string>swiftuitableviewdatasource</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#if os(iOS) || os(tvOS)
+	<string>func numberOfSectionsInTableView(tableView: UITableView) -&gt; Int {
+    return &lt;#count#&gt;
+  }
+
+  func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+    return &lt;#count#&gt;
+  }
+
+  func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -&gt; UITableViewCell {
     &lt;#code#&gt;
-#elseif os(watchOS)
-    &lt;#code#&gt;
-#elseif os(OSX)
-    &lt;#code#&gt;
-#endif</string>
+  }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>89D8ABD7-A0CB-45D6-B354-6BC718E2955A</string>
+	<string>CE2F717F-36C5-4A9F-A8D4-D8870E5572EC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swiftcheckplatform</string>
+	<string>swiftuitableviewdatasource</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

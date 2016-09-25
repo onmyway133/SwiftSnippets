@@ -3,26 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swiftcheckavailability</string>
+	<string>swiftdispatchonce</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if #available(iOS 9, *) {
-    &lt;#code#&gt;
-    } else {
-    &lt;#code&gt;
+	<string>struct Static {
+      static var token: dispatch_once_t = 0
+    }
+
+    dispatch_once(&amp;Static.token) {
+        &lt;#code#&gt;
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>286EE23E-804C-448C-84C2-437F71E31054</string>
+	<string>BD11BCFD-3821-4BBF-8A30-676B16936E9A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swiftcheckavailability</string>
+	<string>swiftdispatchonce</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

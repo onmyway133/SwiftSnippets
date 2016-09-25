@@ -3,25 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swiftdispatchafter</string>
+	<string>swiftavailable</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let time = dispatch_time(DISPATCH_TIME_NOW, Int64(1 * Double(NSEC_PER_SEC)))
-    dispatch_after(time, dispatch_get_main_queue()) {
-        &lt;#code#&gt;
-    }</string>
+	<string>@available(iOS 7, *)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>80B6AA57-C58F-4B87-9C34-68469992CD0A</string>
+	<string>4F4AC178-5A4C-4AB2-B08D-6549243282F7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swiftdispatchafter</string>
+	<string>swiftavailable</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

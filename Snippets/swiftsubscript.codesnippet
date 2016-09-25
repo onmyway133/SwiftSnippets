@@ -3,28 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swiftcheckversion</string>
+	<string>swiftsubscript</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#if swift(&gt;=3.0)
+	<string>subscript(&lt;#name#&gt;: &lt;#type#&gt;) -&gt; &lt;#type#&gt; {
+    get {
+      return &lt;#value#&gt;
+    }
+    set(newValue) {
         &lt;#code#&gt;
-    #elseif swift(&gt;=2.2)
-        &lt;#code#&gt;
-    #elseif swift(&gt;=2.1)
-        &lt;#code#&gt;
-    #endif</string>
+    }
+  }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BFAE611C-AD34-48C0-9910-0A3F883DE3B5</string>
+	<string>F50B2DAE-E6B0-464E-9369-EFDAF86F8A82</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swiftcheckversion</string>
+	<string>swiftsubscript</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
