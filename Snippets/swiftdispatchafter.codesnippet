@@ -9,10 +9,9 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let time = dispatch_time(DISPATCH_TIME_NOW, Int64(1 * Double(NSEC_PER_SEC)))
-    dispatch_after(time, dispatch_get_main_queue()) {
-        &lt;#code#&gt;
-    }</string>
+	<string>DispatchQueue.main.asyncAfter(deadline: .now() + &lt;#time#&gt;) {
+  &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>80B6AA57-C58F-4B87-9C34-68469992CD0A</string>
 	<key>IDECodeSnippetLanguage</key>

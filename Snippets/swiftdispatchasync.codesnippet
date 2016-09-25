@@ -9,9 +9,9 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>dispatch_async(dispatch_get_global_queue(QOS_CLASS_BACKGROUND, 0)) {
-        &lt;#code#&gt;
-    }</string>
+	<string>DispatchQueue.global(qos: .background).async {
+  &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>39E33A76-F4E9-4531-9638-7CBB4ABA4B8C</string>
 	<key>IDECodeSnippetLanguage</key>
