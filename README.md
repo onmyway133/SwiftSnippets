@@ -80,30 +80,25 @@ if #available(iOS 9, *) {
 - swiftdispatchafter
 
 ```swift
-let time = dispatch_time(DISPATCH_TIME_NOW, Int64(1 * Double(NSEC_PER_SEC)))
-dispatch_after(time, dispatch_get_main_queue()) {
-    <#code#>
+DispatchQueue.main.asyncAfter(deadline: .now() + <#time#>) {
+  <#code#>
 }
 ```
 
 - swiftdispatchasync
 
 ```swift
-dispatch_async(dispatch_get_global_queue(QOS_CLASS_BACKGROUND, 0)) {
-    <#code#>
+DispatchQueue.global(qos: .background).async {
+  <#code#>
 }
 ```
 
 - swiftdispatchonce
 
 ```swift
-struct Static {
-  static var token: dispatch_once_t = 0
-}
-
-dispatch_once(&Static.token) {
-    <#code#>
-}
+let <#name#>: <#type#> = {
+  return <#code#>
+}()
 ```
 
 - swiftinitcoder
