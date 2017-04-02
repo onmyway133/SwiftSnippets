@@ -135,6 +135,20 @@ typealias <#alias#> = <#existingtype#>
 ```
 
 - swiftuitableviewdatasource
+ ```swift
+func numberOfSectionsInTableView(tableView: UITableView) -&gt; Int {
+  return <#count#>
+}
+
+func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+  return <#count#>
+}
+
+func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -&gt; UITableViewCell {
+  <#code#>
+}
+ ```
+
 - swiftuicollectionviewdatasource
 - swiftuipickerviewdatasource
 
