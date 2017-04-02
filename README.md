@@ -49,7 +49,7 @@ var <#name#>: String? {
 if #available(iOS 9, *) {
   <#code#>
 } else {
-  <#code>
+  <#code#>
 }
 ```
 
