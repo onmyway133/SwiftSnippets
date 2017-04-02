@@ -12,7 +12,7 @@
 	<string>if #available(iOS 9, *) {
     &lt;#code#&gt;
     } else {
-    &lt;#code&gt;
+    &lt;#code#&gt;
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>286EE23E-804C-448C-84C2-437F71E31054</string>
