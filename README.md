@@ -136,20 +136,35 @@ typealias <#alias#> = <#existingtype#>
 
 - swiftuitableviewdatasource
  ```swift
-func numberOfSectionsInTableView(tableView: UITableView) -&gt; Int {
+func numberOfSectionsInTableView(tableView: UITableView) -> Int {
   return <#count#>
 }
 
-func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
   return <#count#>
 }
 
-func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -&gt; UITableViewCell {
+func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
   <#code#>
 }
  ```
 
 - swiftuicollectionviewdatasource
+
+```swift
+func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+  <#count#>
+}
+
+func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+  <#count#>
+}
+
+func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+  <#code#>
+}
+```
+
 - swiftuipickerviewdatasource
 
 ## Installation
