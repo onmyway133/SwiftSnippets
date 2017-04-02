@@ -166,6 +166,15 @@ func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath ind
 ```
 
 - swiftuipickerviewdatasource
+```swift
+func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+  <#count#>
+}
+
+func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+  <#count#>
+}
+```
 
 ## Installation
 
