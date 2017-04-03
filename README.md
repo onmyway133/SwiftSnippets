@@ -49,7 +49,7 @@ var <#name#>: String? {
 if #available(iOS 9, *) {
   <#code#>
 } else {
-  <#code>
+  <#code#>
 }
 ```
 
@@ -135,8 +135,46 @@ typealias <#alias#> = <#existingtype#>
 ```
 
 - swiftuitableviewdatasource
+ ```swift
+func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+  return <#count#>
+}
+
+func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+  return <#count#>
+}
+
+func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+  <#code#>
+}
+ ```
+
 - swiftuicollectionviewdatasource
+
+```swift
+func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+  <#count#>
+}
+
+func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+  <#count#>
+}
+
+func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+  <#code#>
+}
+```
+
 - swiftuipickerviewdatasource
+```swift
+func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+  <#count#>
+}
+
+func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+  <#count#>
+}
+```
 
 ## Installation
 
