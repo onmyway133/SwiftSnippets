@@ -47,9 +47,11 @@ var <#name#>: String? {
 
 ```swift
 if #available(iOS 9, *) {
-  <#code#>
+    <#API available statements#>
+} else if #available(macOS 10.12, *) {
+    <#API available statements#>
 } else {
-  <#code#>
+    <#fallback statements#>
 }
 ```
 
