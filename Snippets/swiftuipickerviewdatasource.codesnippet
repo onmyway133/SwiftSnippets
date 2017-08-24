@@ -9,13 +9,13 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>func numberOfComponentsInPickerView(pickerView: UIPickerView) -&gt; Int {
-    &lt;#count#&gt;
-  }
+	<string>func numberOfComponents(in pickerView: UIPickerView) -&gt; Int {
+  return &lt;#count#&gt;
+}
 
-  func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -&gt; Int {
-    &lt;#count#&gt;
-  }</string>
+func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -&gt; Int {
+  return &lt;#count#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>221CE04F-5B1F-4A86-8EB3-52FAEF45CF0A</string>
 	<key>IDECodeSnippetLanguage</key>
