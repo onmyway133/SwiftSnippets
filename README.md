@@ -128,23 +128,25 @@ subscript(<#name#>: <#type#>) -> <#type#> {
 }
 ```
 
-- swifttypealias
+- swiftguardself
 
 ```swift
-typealias <#alias#> = <#existingtype#>
+guard let `self` = self else {
+  return
+}
 ```
 
 - swiftuitableviewdatasource
  ```swift
-func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+func numberOfSections(in tableView: UITableView) -> Int {
   return <#count#>
 }
 
-func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
   return <#count#>
 }
 
-func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
   <#code#>
 }
  ```
@@ -152,27 +154,28 @@ func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexP
 - swiftuicollectionviewdatasource
 
 ```swift
-func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
-  <#count#>
+func numberOfSections(in collectionView: UICollectionView) -> Int {
+  return <#count#>
 }
 
-func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-  <#count#>
+func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+  return <#count#>
 }
 
-func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
   <#code#>
 }
 ```
 
 - swiftuipickerviewdatasource
+
 ```swift
-func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
-  <#count#>
+func numberOfComponents(in pickerView: UIPickerView) -> Int {
+  return <#count#>
 }
 
-func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-  <#count#>
+func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+  return <#count#>
 }
 ```
 
