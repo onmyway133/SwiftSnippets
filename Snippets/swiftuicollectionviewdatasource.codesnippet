@@ -9,17 +9,17 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>func numberOfSectionsInCollectionView(collectionView: UICollectionView) -&gt; Int {
-    &lt;#count#&gt;
-  }
+	<string>func numberOfSections(in collectionView: UICollectionView) -&gt; Int {
+  return &lt;#count#&gt;
+}
 
-  func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
-    &lt;#count#&gt;
-  }
+func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
+  return &lt;#count#&gt;
+}
 
-  func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -&gt; UICollectionViewCell {
-    &lt;#code#&gt;
-  }</string>
+func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -&gt; UICollectionViewCell {
+  &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F932ECD9-8F67-4C60-98CF-071204B1FF17</string>
 	<key>IDECodeSnippetLanguage</key>

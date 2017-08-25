@@ -9,17 +9,17 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>func numberOfSectionsInTableView(tableView: UITableView) -&gt; Int {
-    return &lt;#count#&gt;
-  }
+	<string>func numberOfSections(in tableView: UITableView) -&gt; Int {
+  return &lt;#count#&gt;
+}
 
-  func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
-    return &lt;#count#&gt;
-  }
+func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+  return &lt;#count#&gt;
+}
 
-  func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -&gt; UITableViewCell {
-    &lt;#code#&gt;
-  }</string>
+func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
+  &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>CE2F717F-36C5-4A9F-A8D4-D8870E5572EC</string>
 	<key>IDECodeSnippetLanguage</key>

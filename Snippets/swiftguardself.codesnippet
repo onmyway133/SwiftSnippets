@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swifttypealias</string>
+	<string>swiftguardself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typealias &lt;#alias#&gt; = &lt;#existingtype#&gt;</string>
+	<string>guard let `self` = self else {
+  return
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5A840BC7-D419-4A82-A069-E9DDC4F8BA20</string>
+	<string>FC0D62B1-F64B-47EB-A912-E0E6172B498A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swifttypealias</string>
+	<string>swiftguardself</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
