@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-VERSION=0.2.0
+VERSION=0.3.0
 EXTENSION=codesnippet
 NAME="SwiftSnippets-${VERSION}"
 DOWNLOAD_URI=https://github.com/hyperoslo/SwiftSnippets/archive/${VERSION}.tar.gz
