@@ -197,7 +197,11 @@ curl -fsSL https://raw.githubusercontent.com/hyperoslo/SwiftSnippets/master/inst
 
 ## Author
 
-Hyper Interaktiv AS, ios@hyper.no
+- Khoa Pham, onmyway133@gmai.com
+
+## Credit
+
+- Hyper Interaktiv AS, ios@hyper.no
 
 ## License
 
